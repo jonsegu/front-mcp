@@ -1,0 +1,59 @@
+# dependencies
+/node_modules
+
+# next
+/.next
+/out
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# env
+.env*
+!.env.example
+
+# test
+/coverage
+
+# typescript build cache
+*.tsbuildinfo
+
+# sensitive files
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.csr
+*.jks
+*.keystore
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# local secrets / credentials
+.npmrc
+.yarnrc.yml
+secrets.*
+secret.*
+credentials.*
+*.secret
+
+# cloud provider credentials
+*service-account*.json
+*credentials*.json
+gcp-credentials.json
+gcp-service-account.json
+google-credentials.json
+firebase-adminsdk*.json
